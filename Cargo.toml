@@ -1,0 +1,12 @@
+[package]
+name = "ps60sst_log"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.22"
+serde = { version = "1.0", default-features = false, features = ["derive"]}
+serde_json = "1.0.85"
+serialport = "4.2.0"
